@@ -97,6 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const row = document.createElement('tr');
                 row.innerHTML = `
                     <td class="px-3 py-2 whitespace-nowrap">${entry.date}</td>
+                    <td class="px-3 py-2 whitespace-nowrap">${entry.mileageReading}</td>
                     <td class="px-3 py-2 whitespace-nowrap">${entry.fuelType}</td>
                     <td class="px-3 py-2 whitespace-nowrap">RM${entry.litersPrice}</td>
                     <td class="px-3 py-2 whitespace-nowrap">${entry.kmPerRM}</td>
