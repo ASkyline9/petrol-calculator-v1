@@ -1,19 +1,19 @@
 {
-  "name": "Petrol Usage Calculator",
-  "short_name": "PetrolCalc",
-  "description": "A simple petrol usage calculator for Malaysian drivers.",
+  "name": "Petrol Usage Calculator Malaysia",
+  "short_name": "Petrol Calc",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#00903B",
+  "background_color": "#00903B",
+  "theme_color": "#ffffff",
+  "description": "A simple and offline-friendly petrol usage calculator for Malaysian drivers.",
   "icons": [
     {
-      "src": "assets/petronas-logo.png",
+      "src": "/assets/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "assets/petronas-logo-512x512.png",
+      "src": "/assets/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
